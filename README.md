@@ -1,19 +1,16 @@
-# Mes projets.
+# Mon parcours universitaire.
 
-Ce dêpot git resemble une partie des projets dans le cadre de cursus de licence 2 de l'UFR de mathématique et d'informatique de Strasbourg.
+Ce dêpot git rassemble une partie des projets dans le cadre de cursus de licence 2 de l'UFR de mathématique et d'informatique de Strasbourg. Ces projets transversaux m'ont permis d'évoluer dans la mise en oeuvre de plusieurs algorithmes et structures des données. Cela ne représente qu'un début, que je suis capable d'améliorer.
 
-
-Pendant mon première anné, j'ai suivi les matiers suivantes:
-
-
+De plus, vous trouverez en détails les cours suivis à l'université.
 
 ## S1:
  * **Algèbre 1**
  	* Calcul matriciel, systèmes linéaires, arithmétique dans Z.
  * **Analyse mathématique 1**
- 	* Limites de fonctions, DL, applications au tracé de graphe.Fonctions réciproques.Calcul de primitivesÉquations différentielles linéaires d’ordre 1 et 2 à coefficients constants. 
+ 	* Limites de fonctions, DL, applications au tracé de graphe. Fonctions réciproques.Calcul de primitives, equations différentielles linéaires d’ordre 1 et 2 à coefficients constants. 
  * **Algorithmique et programmation 1**
- 	* Cette UE contient les notions de base de la programmation impérative en termes de traitement (instructions, séquences, conditionnelles, boucles, fonctions,mettant en jeu pointeurs, types composés, ...). Ces éléments seront manipulés au travers d'un langage compilé (langage C).
+ 	* Ce cours contient les notions de base de la programmation impérative en termes de traitement (instructions, séquences, conditionnelles, boucles, fonctions,mettant en jeu pointeurs, types composés, ...). Ces éléments seront manipulés au travers d'un langage compilé (langage C).
  * **Mécanique 1**
  	* Analyse dimensionnelle – grandeurs et unités, calcul vectoriel, cinématique, dynamique du point matériel, énergétique du point matériel.
  * **Calcul formel** 
