@@ -1,10 +1,10 @@
 # Mon parcours universitaire
 
-Ce dêpot git rassemble une partie des projets dans le cadre de cursus de licence 2 de l'UFR de mathématique et d'informatique de Strasbourg. Ces projets transversaux m'ont permis d'évoluer dans la mise en oeuvre de plusieurs algorithmes et structures des données. Cela ne représente qu'un début, que je suis capable d'améliorer.
+Ce dêpot git rassemble une partie des projets réalisés dans le cadre de cursus de licence 2 de l'UFR de mathématique et d'informatique de Strasbourg. Ces projets transversaux m'ont permis d'évoluer dans la mise en oeuvre de plusieurs algorithmes et structures des données. Cela ne représente qu'un début, que je suis capable d'améliorer.
 
 De plus, vous trouverez en détails les cours suivis à l'université.
 
-## S1:
+## S1
  * **Algèbre 1**
  	* Calcul matriciel, systèmes linéaires, arithmétique dans Z.
  * **Analyse mathématique 1**
@@ -16,7 +16,7 @@ De plus, vous trouverez en détails les cours suivis à l'université.
  * **Calcul formel** 
  	* Introduction et étude du shell
  	
-## S2:
+## S2
  * **Algèbre 2**
  	* Espaces vectoriels. Applications linéaires. Lien avec matrices. Changement de base.Applications linéaires 
  * **Fondement de calcul et du raisonnement**
