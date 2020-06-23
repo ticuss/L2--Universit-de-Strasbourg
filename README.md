@@ -51,7 +51,8 @@ Pendant mon première anné, j'ai suivi les matiers suivantes:
  * **Techniques de développement** 
  	* Mécanismes de la compilation (préprocesseur, compilation, assemblage et édition de liens).Utilisation, création et compilation de bibliothèques. Gestionnaire de versions et développement collaboratif (svn, git). Documentation de code (doxygen). Méthodologie de gestion des erreurs et déverminage (gdb et valgrind). Structure mémoire d'un exécutable, pile d'exécution. Approfondissement des mécanismes d'allocation statique et dynamique de mémoire.
  * **Traitement du signal**
- 	* Cette UE présente les bases de la théorie et du traitement du signal, c'est à dire la représentation mathématique et le traitement informatique des signaux physiques (son, lumière, ondes radio, wifi, etc.).2chantillonnage (théorème de Shannon), analyse (transformée de Fourier discrète), filtrage, convolution, transmissionet aussi des types d'applications et leur mise en oeuvre (traitement et compression d'images et de sons, détection radar).
+ 	* Cette UE présente les bases de la théorie et du traitement du signal, c'est à dire la représentation mathématique et le traitement informatique des signaux physiques (son, lumière, ondes radio, wifi, etc.).Echantillonnage (théorème de Shannon), analyse (transformée de Fourier discrète), filtrage, convolution, transmissionet aussi des types d'applications et leur mise en oeuvre (traitement et compression d'images et de sons, détection radar).
+## S4
  * **Probabilités et statistique**
  	*  Dénombrement (combinatoire),Probabilité conditionnelle (formule de Bayes),Lois discrètes (lois usuelles, fonction génératrice, moments),Statistique (statistique descriptive).
  * **Analyse numérique appliquée**
@@ -61,7 +62,7 @@ Pendant mon première anné, j'ai suivi les matiers suivantes:
  * **Résaux IP**
  	* Introduction aux réseaux informatiques. Elle présente la notion de service et de protocole à travers l'étude du modèle OSI et TCP/IP. Les protocoles Ethernet et IP versions 4 et 6: principe de commutation et de routage, adressage et traduction d'adresses, découverte de voisins, configuration automatique, équipements d'interconnexion (concentrateur, commutateur, routeur), sécurité.
  * **Structures de données et algorithmes 2**
- 	*Cette UE présente de nombreuses structures de données classiques:
+ 	* Cette UE présente de nombreuses structures de données classiques:
 		* Tables : avec adressage calculé, associatif, indexé, partagé et haché;
 		* Arbres et forêts : binaires, généraux, préfixés, (auto-)équilibrés, e.g., AVL et B-arbres;
 		* Graphes : non orientés, orientés, acycliques etc.
