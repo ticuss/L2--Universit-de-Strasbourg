@@ -61,13 +61,16 @@ Pendant mon première anné, j'ai suivi les matiers suivantes:
  * **Résaux IP**
  	* Introduction aux réseaux informatiques. Elle présente la notion de service et de protocole à travers l'étude du modèle OSI et TCP/IP. Les protocoles Ethernet et IP versions 4 et 6: principe de commutation et de routage, adressage et traduction d'adresses, découverte de voisins, configuration automatique, équipements d'interconnexion (concentrateur, commutateur, routeur), sécurité.
  * **Structures de données et algorithmes 2**
- 	*Cette UE présente de nombreuses structures de données classiques :
-- Tables : avec adressage calculé, associatif, indexé, partagé et haché;
-- Arbres et forêts : binaires, généraux, préfixés, (auto-)équilibrés, e.g., AVL et B-arbres;
-- Graphes : non orientés, orientés, acycliques etc.
-
- 	
- 	
+ 	*Cette UE présente de nombreuses structures de données classiques:
+		* Tables : avec adressage calculé, associatif, indexé, partagé et haché;
+		* Arbres et forêts : binaires, généraux, préfixés, (auto-)équilibrés, e.g., AVL et B-arbres;
+		* Graphes : non orientés, orientés, acycliques etc.
+ * **Programmation orientée objets 2** 
+ 	* Famille de langages: Langage à classe vs à prototype, typé (et règles de typage) vs non typé, pur vs type de base, compilé vs interprété. Famille d'héritage: simple, multiple, dynamique, alimentaire, par interface, par trait, utilisant le langage Java.
+ * **Programmation web 2** 
+ 	* L'infrastructure, le modèle client/serveur, le HTML, le rendu CSS, le Javascript et la méthode AJAX, l'utilisation de librairie telles jQuery pour dynamiser les IHM et de frameworks tels Bootstrap pour répondre aux problématiques du responsive, le langage PHP. 
+ * **Économie et gestion**
+ 	* Initiation à l'économie : Environnement économique des entreprises dans le secteur des technologies de l'information et de la communication, étude micro-économique, structures de marché qui guident le comportement des firmes.  Principes de fonctionnement interne des entreprises : Étude des stratégies des entreprises : choix d'une stratégie particulière, analyse de stratégies génériques. Financement des entreprises (trésorerie, gestion de portefeuille, budget, etc.), besoins et sources de financement. 
  	
  	
  	
