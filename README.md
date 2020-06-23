@@ -1,4 +1,4 @@
-# Mon parcours universitaire.
+# Mon parcours universitaire
 
 Ce dêpot git rassemble une partie des projets dans le cadre de cursus de licence 2 de l'UFR de mathématique et d'informatique de Strasbourg. Ces projets transversaux m'ont permis d'évoluer dans la mise en oeuvre de plusieurs algorithmes et structures des données. Cela ne représente qu'un début, que je suis capable d'améliorer.
 
