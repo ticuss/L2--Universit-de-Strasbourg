@@ -1,0 +1,87 @@
+\hypertarget{io_8c}{}\section{io.\+c File Reference}
+\label{io_8c}\index{io.\+c@{io.\+c}}
+{\ttfamily \#include \char`\"{}io.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}grille.\+h\char`\"{}}\newline
+Include dependency graph for io.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{io_8c_a634cf584c380ce221d5d4199f3e813bd}{affiche\+\_\+trait} (int c)
+\begin{DoxyCompactList}\small\item\em affichange d\textquotesingle{}un trait \end{DoxyCompactList}\item 
+int \hyperlink{io_8c_af233ba8a25fbbf946e504de883c77633}{temps\+\_\+evolution} (int etape)
+\begin{DoxyCompactList}\small\item\em Un compteur des étapes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{io_8c_a772dec333396e3ef8ac601afdee19c16}\label{io_8c_a772dec333396e3ef8ac601afdee19c16}} 
+void \hyperlink{io_8c_a772dec333396e3ef8ac601afdee19c16}{affiche\+\_\+ligne} (int c, int $\ast$ligne)
+\begin{DoxyCompactList}\small\item\em affichage d\textquotesingle{}une ligne de la grille \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{io_8c_a90cb8ec05374b46d9995705ed4954f34}\label{io_8c_a90cb8ec05374b46d9995705ed4954f34}} 
+void {\bfseries affiche\+\_\+grille} (\hyperlink{structgrille}{grille} g)
+\item 
+\mbox{\Hypertarget{io_8c_ab36a6f8957cd3e682119007836ce6ad5}\label{io_8c_ab36a6f8957cd3e682119007836ce6ad5}} 
+void {\bfseries efface\+\_\+grille} (\hyperlink{structgrille}{grille} g)
+\item 
+void \hyperlink{io_8c_a88493b3c55828670e47150a95ed7db5b}{debut\+\_\+jeu} (\hyperlink{structgrille}{grille} $\ast$g, \hyperlink{structgrille}{grille} $\ast$gc)
+\begin{DoxyCompactList}\small\item\em debute le jeu \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+code pour les entrees et sorties \begin{DoxyAuthor}{Author}
+Bogdanas Constantin 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{io_8c_a634cf584c380ce221d5d4199f3e813bd}\label{io_8c_a634cf584c380ce221d5d4199f3e813bd}} 
+\index{io.\+c@{io.\+c}!affiche\+\_\+trait@{affiche\+\_\+trait}}
+\index{affiche\+\_\+trait@{affiche\+\_\+trait}!io.\+c@{io.\+c}}
+\subsubsection{\texorpdfstring{affiche\+\_\+trait()}{affiche\_trait()}}
+{\footnotesize\ttfamily void affiche\+\_\+trait (\begin{DoxyParamCaption}\item[{int}]{c }\end{DoxyParamCaption})}
+
+
+
+affichange d\textquotesingle{}un trait 
+
+\#\+Introduction
+
+Cette module \char`\"{}io\char`\"{} nous permet de faire des opérations comme affichage et modifications du contenu dans une \hyperlink{structgrille}{grille} à la base de la module \hyperlink{structgrille}{grille}
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & nombre colonnes \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{io_8c_a88493b3c55828670e47150a95ed7db5b}\label{io_8c_a88493b3c55828670e47150a95ed7db5b}} 
+\index{io.\+c@{io.\+c}!debut\+\_\+jeu@{debut\+\_\+jeu}}
+\index{debut\+\_\+jeu@{debut\+\_\+jeu}!io.\+c@{io.\+c}}
+\subsubsection{\texorpdfstring{debut\+\_\+jeu()}{debut\_jeu()}}
+{\footnotesize\ttfamily void debut\+\_\+jeu (\begin{DoxyParamCaption}\item[{\hyperlink{structgrille}{grille} $\ast$}]{g,  }\item[{\hyperlink{structgrille}{grille} $\ast$}]{gc }\end{DoxyParamCaption})}
+
+
+
+debute le jeu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & pointeur vers une grille \\
+\hline
+{\em gc} & pointeur vers une grille (copy) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{io_8c_af233ba8a25fbbf946e504de883c77633}\label{io_8c_af233ba8a25fbbf946e504de883c77633}} 
+\index{io.\+c@{io.\+c}!temps\+\_\+evolution@{temps\+\_\+evolution}}
+\index{temps\+\_\+evolution@{temps\+\_\+evolution}!io.\+c@{io.\+c}}
+\subsubsection{\texorpdfstring{temps\+\_\+evolution()}{temps\_evolution()}}
+{\footnotesize\ttfamily int temps\+\_\+evolution (\begin{DoxyParamCaption}\item[{int}]{etape }\end{DoxyParamCaption})}
+
+
+
+Un compteur des étapes. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em étape} & un int qui représente le nombre des étapes\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+::int le nouveau étape 
+\end{DoxyReturn}

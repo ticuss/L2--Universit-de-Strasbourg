@@ -1,0 +1,24 @@
+{
+    "fr":{
+      "title":"Accueil des étudiants etrangers",
+      "title1":"Qui sommes nous",
+        "nav1" :"Accueil",
+        "nav2" :"Événements",
+        "snav3" :"Ajoutez un evenement",
+        "nav4" :"Connection",
+        "nav5" :"Inscriez-Vous! ",
+        "event1" :"Soiree dans un club de Strasbourg"
+       
+
+    },
+    "en":{
+      "title":"Home page-AEE",
+      "title1":"About us",
+      "nav1" :"Home",
+      "nav2" :"Events",
+      "snav3" :"Add an event",
+      "nav4" :"LogIn",
+      "nav5" :"Sign-up! ",
+      "event1" : "Party in a club in Strasbourg"
+    }
+  }

@@ -1,0 +1,80 @@
+\hypertarget{jeu_8c}{}\section{jeu.\+c File Reference}
+\label{jeu_8c}\index{jeu.\+c@{jeu.\+c}}
+{\ttfamily \#include \char`\"{}jeu.\+h\char`\"{}}\newline
+Include dependency graph for jeu.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{jeu_8c_a919a35926d94b71717909ecc50233f26}{compte\+\_\+voisins\+\_\+vivants\+\_\+cyclique} (int i, int j, \hyperlink{structgrille}{grille} g)
+\begin{DoxyCompactList}\small\item\em Caldul le nombre des voisins vivants d\textquotesingle{}une cellule. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{jeu_8c_a2e8fdd206d197391527920bbbc137eef}\label{jeu_8c_a2e8fdd206d197391527920bbbc137eef}} 
+int {\bfseries compte\+\_\+voisins\+\_\+vivants\+\_\+non\+\_\+cyclique} (int i, int j, \hyperlink{structgrille}{grille} g)
+\item 
+void \hyperlink{jeu_8c_a79c0c5a7d9c19a240c8fd1ae2fe63451}{evolue} (\hyperlink{structgrille}{grille} $\ast$g, \hyperlink{structgrille}{grille} $\ast$gc, int($\ast$compte\+\_\+voisins\+\_\+vivants)(int, int, \hyperlink{structgrille}{grille}))
+\begin{DoxyCompactList}\small\item\em Une fonction qui sert au jeu pour se progresser. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+code pour le jeu \begin{DoxyAuthor}{Author}
+Bogdanas Constantin 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{jeu_8c_a919a35926d94b71717909ecc50233f26}\label{jeu_8c_a919a35926d94b71717909ecc50233f26}} 
+\index{jeu.\+c@{jeu.\+c}!compte\+\_\+voisins\+\_\+vivants\+\_\+cyclique@{compte\+\_\+voisins\+\_\+vivants\+\_\+cyclique}}
+\index{compte\+\_\+voisins\+\_\+vivants\+\_\+cyclique@{compte\+\_\+voisins\+\_\+vivants\+\_\+cyclique}!jeu.\+c@{jeu.\+c}}
+\subsubsection{\texorpdfstring{compte\+\_\+voisins\+\_\+vivants\+\_\+cyclique()}{compte\_voisins\_vivants\_cyclique()}}
+{\footnotesize\ttfamily int compte\+\_\+voisins\+\_\+vivants\+\_\+cyclique (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j,  }\item[{\hyperlink{structgrille}{grille}}]{g }\end{DoxyParamCaption})}
+
+
+
+Caldul le nombre des voisins vivants d\textquotesingle{}une cellule. 
+
+Ici, on vous propose deux mode de calcul\+: Cyclique et Non\+\_\+\+Cyclique. Ils se réalise par /code \hyperlink{jeu_8c_a919a35926d94b71717909ecc50233f26}{compte\+\_\+voisins\+\_\+vivants\+\_\+cyclique()}; /endcode et /code compte\+\_\+voisins\+\_\+vivants\+\_\+non\+\_\+cyclique(); /endcode respectivement.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em i} & L\textquotesingle{}indice de ligne. \\
+\hline
+\mbox{\tt in}  & {\em j} & L\textquotesingle{}indice de colonne. \\
+\hline
+\mbox{\tt in}  & {\em g} & La grille comme source de data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Le nombre total des voisins vivants.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+La cellule
+\begin{DoxyCode}
+(i,j) 
+\end{DoxyCode}
+ existe dans la \hyperlink{structgrille}{grille} 
+\end{DoxyPrecond}
+\mbox{\Hypertarget{jeu_8c_a79c0c5a7d9c19a240c8fd1ae2fe63451}\label{jeu_8c_a79c0c5a7d9c19a240c8fd1ae2fe63451}} 
+\index{jeu.\+c@{jeu.\+c}!evolue@{evolue}}
+\index{evolue@{evolue}!jeu.\+c@{jeu.\+c}}
+\subsubsection{\texorpdfstring{evolue()}{evolue()}}
+{\footnotesize\ttfamily void evolue (\begin{DoxyParamCaption}\item[{\hyperlink{structgrille}{grille} $\ast$}]{g,  }\item[{\hyperlink{structgrille}{grille} $\ast$}]{gc,  }\item[{int($\ast$)(int, int, \hyperlink{structgrille}{grille})}]{compte\+\_\+voisins\+\_\+vivants }\end{DoxyParamCaption})}
+
+
+
+Une fonction qui sert au jeu pour se progresser. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em $\ast$g} & La \hyperlink{structgrille}{grille} comme source de data \\
+\hline
+\mbox{\tt in}  & {\em $\ast$gc} & Une copie de la \hyperlink{structgrille}{grille} de source qui est est utile seulement temporairement pour les calcul. \\
+\hline
+\mbox{\tt in}  & {\em ($\ast$compte\+\_\+voisins\+\_\+vivants(int,int,grille))} & Un pointeur de fonction qui nous permet de changer entre deux mode de calcul. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Les pointeurs ne sont pas pointeur N\+U\+LL. 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

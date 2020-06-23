@@ -1,0 +1,10 @@
+<map id="include/grille.h" name="include/grille.h">
+<area shape="rect" id="node2" href="$graphics_8h.html" title="include/graphics.h" alt="" coords="23,155,150,181"/>
+<area shape="rect" id="node3" href="$graphics_8c.html" title="src/graphics.c" alt="" coords="34,229,138,256"/>
+<area shape="rect" id="node4" href="$main__cairo_8c.html" title="Code Source Main ::cette fichier est responsable de la creation d&#39;un executable avec l&#39;interface grap..." alt="" coords="283,229,402,256"/>
+<area shape="rect" id="node5" href="$jeu_8h.html" title="include/jeu.h" alt="" coords="232,80,327,107"/>
+<area shape="rect" id="node6" href="$io_8h.html" title="Header pour les manipulations aux contenus de la grille. " alt="" coords="422,155,510,181"/>
+<area shape="rect" id="node7" href="$io_8c.html" title="src/io.c" alt="" coords="474,229,539,256"/>
+<area shape="rect" id="node9" href="$grille_8c.html" title="src/grille.c" alt="" coords="585,80,668,107"/>
+<area shape="rect" id="node8" href="$jeu_8c.html" title="src/jeu.c" alt="" coords="225,155,297,181"/>
+</map>
