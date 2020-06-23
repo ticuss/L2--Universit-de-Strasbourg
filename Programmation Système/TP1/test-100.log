@@ -1,0 +1,17 @@
++ test 0 -eq 1
++ test 1 -eq 1
++ debut_test 2 'Test de validité et accessibilité'
++ echo -n '[  ] 2. Test de validité et accessibilité... '
++ ./backup inexistant inexistant inexistant
++ test 1 -eq 1
++ mkdir tmp.WDo/source
++ ./backup tmp.WDo/source inexistant tmp.WDo/destination
+./test-100.sh: line 126:  2705 Aborted                 (core dumped) $PROG $TMPDIR/source inexistant $TMPDIR/destination &> /dev/null
++ test 134 -eq 0
++ fail 'Appel avec reference inexistante'
++ echo -e '\r[ko]'
++ echo '==> Échec du test sur '\''Appel avec reference inexistante'\''.'
++ echo '==> Log : '\''test-100.log'\''.'
++ echo '==> Exit'
++ rm -rf tmp.WDo
++ exit 1

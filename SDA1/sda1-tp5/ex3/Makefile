@@ -1,0 +1,86 @@
+.PHONY: all archive clean distclean doc format
+
+################################################################################
+# Variables diverses
+################################################################################
+
+NAME ?= $(shell basename $(shell pwd))
+FILES = *.c *.h Makefile .clang-format
+EXEC = test_liste test_tableau test_ensemble test_iterateur
+
+################################################################################
+# Options et flags de compilation
+################################################################################
+
+LDLIBS ?= -lm
+CFLAGS ?= -O3 -march=native -g3 -ggdb
+
+override CFLAGS += -std=gnu11 -pedantic -pedantic-errors \
+		-Wall -Wextra \
+		-Wdouble-promotion -Wformat=2 -Winit-self -Wswitch-default \
+		-Wswitch-enum -Wunused-parameter -Wuninitialized -Wfloat-equal \
+		-Wshadow -Wundef -Wbad-function-cast -Wcast-qual -Wcast-align \
+		-Wwrite-strings -Wconversion -Wstrict-prototypes \
+		-Wold-style-definition -Wmissing-prototypes -Wmissing-declarations \
+		-Wredundant-decls -Wnested-externs -Wmissing-include-dirs \
+		-Wnull-dereference -Wswitch-bool -Wdate-time
+# D'autres warnings intéressants, dans certains cas, mais pas reconnus par
+# clang:
+#
+#   -Wunsafe-loop-optimizations -Wjump-misses-init -Wlogical-op
+#   -Wduplicated-cond
+
+################################################################################
+# Cibles « standard » et cibles bonus
+################################################################################
+
+all: $(EXEC)
+
+# Création de l'archive... On souhaite qu'il y ait un répertoire racine dans
+# l'archive. Ne pas oublier d'utiliser $(USER) dans les chemins pour les
+# systèmes multi-utilisateurs...
+#
+# La ligne suivante suffirait si on pouvait être sûr que la variante tar
+# utilisée est GNU tar... (par exemple, BSD tar ne reconnaît pas --transform)
+#
+#   tar -czf "$(NAME).tar.gz" --transform="s,^,$(NAME)/," *.c *.h Makefile Doxyfile
+dist:
+	mkdir -p "/tmp/$(USER)-dist/$(NAME)"
+	cp -R $(FILES) "/tmp/$(USER)-dist/$(NAME)"
+	(cd "/tmp/$(USER)-dist/"; tar -czf "$(NAME).tar.gz" "$(NAME)")
+	mv "/tmp/$(USER)-dist/$(NAME).tar.gz" ./
+	$(RM) -r "/tmp/$(USER)-dist/$(NAME)"
+
+# Formattage
+format:
+	command -v clang-format >/dev/null 2>&1 && clang-format -i --style=file *c *h
+
+# Nettoyage
+clean:
+	$(RM) -r $(EXEC) *.o doc
+distclean: clean
+	$(RM) *.tar.gz
+
+################################################################################
+# Dépendances
+################################################################################
+
+# Penser à utliser l'option -MM pour les dépendances avec les en-têtes !
+#
+#   gcc -MM *.c >dependencies
+
+# Éxécutables
+test_liste: test_liste.o liste.o iterateur.o
+test_tableau: test_tableau.o tableau.o iterateur.o
+test_ensemble: test_ensemble.o ensemble.o iterateur.o
+test_iterateur: test_iterateur.o iterateur.o liste.o tableau.o ensemble.o
+
+# Fichiers objets
+ensemble.o: ensemble.c ensemble.h iterateur.h sorte.h
+iterateur.o: iterateur.c iterateur.h sorte.h
+liste.o: liste.c liste.h iterateur.h sorte.h
+tableau.o: tableau.c tableau.h iterateur.h sorte.h
+test_ensemble.o: test_ensemble.c ensemble.h iterateur.h sorte.h
+test_iterateur.o: test_iterateur.c ensemble.h iterateur.h sorte.h liste.h tableau.h
+test_liste.o: test_liste.c liste.h iterateur.h sorte.h
+test_tableau.o: test_tableau.c sorte.h tableau.h iterateur.h

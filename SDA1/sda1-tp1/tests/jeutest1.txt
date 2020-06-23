@@ -1,0 +1,23 @@
+ajoute 1
+ajoute 2
+ajoute 3
+ajoute 4
+ajoute 5
+ajoute 6
+ajoute 7
+ajoute 8
+ajoute 9
+ajoute 10
+ajoute 11
+ajoute 12
+ajoute 13
+ajoute 14
+ajoute 15
+ajoute 16
+ajoute 17
+ajoute 18
+ajoute 19
+ajoute 20
+affiche
+etat
+quit

@@ -1,0 +1,17 @@
+---
+# We use the Google style
+BasedOnStyle: Google
+# Alignment on grids might be pretty but it often results in bigger commit
+# diffs... (because the whole grid needs to be realigned.)
+# Thus we only want to indent align line breaks.
+AlignAfterOpenBracket: AlwaysBreak
+AlignEscapedNewlines: DontAlign
+AlignOperands: false
+AlignTrailingComments: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+BreakBeforeBinaryOperators: NonAssignment
+IndentPPDirectives: BeforeHash
+SpaceAfterCStyleCast: true
+...
