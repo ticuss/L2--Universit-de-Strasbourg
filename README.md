@@ -29,7 +29,7 @@ De plus, vous trouverez en détails les cours suivis à l'université.
  	* Ce cours présente les principes et les outils de base permettant de concevoir et de manipuler des bases de données relationnelles. L’apprentissage du langage de requêtes structuré SQL (Structured Query Language) constitue le noyau central du cours.
  	 	
 ## S3 
- * **Analyse 2**
+ * **Analyse réelle 2**
  	* Suites réelles, limites de fonctions, dérivabilité, intégralité, theoremes de Taylor- Lagrange, théoremes de Rolle...
  * **Logique et programmation logique** 
  	* Etude des fonctions booléennes, les notions de logique mathématique classique (d'ordre 0 et 1) et les appliquer à la déduction par la méthode de résolution, le paradigme de programmation logique par la pratique du langage Prolog
@@ -38,7 +38,7 @@ De plus, vous trouverez en détails les cours suivis à l'université.
  * **Structures de données et algorithmes 1**	
  	* Etude des styles d'implantations statiques/fonctionnelles sans effets de bord et des styles d'implantations dynamiques avec des passages d'arguments par adresse. Spécification algébrique pour les types des donnes piles, files, et listes et aussi les implantation en langage C, analyse des compléxites des algorithmes optimisation, choix des implementations.	
  * **Programmation orientée objets 1**	
- 	* Ce cours est une introduction à la programmation orientée objets avec Java comma langage d'application.
+ 	* Ce cours est une introduction à la programmation orientée objets avec Java comme langage d'application.
 		* Les classes et objets, constructeurs, méthodes, interfaces, classes anonymes, l'héritage, classes dérivees, super classe ;		
  * **Techniques de développement** 
  	* Mécanismes de la compilation (préprocesseur, compilation, assemblage et édition de liens).Utilisation, création et compilation de bibliothèques. Gestionnaire de versions et développement collaboratif (svn, git). Documentation de code (doxygen). Méthodologie de gestion des erreurs et déverminage (gdb et valgrind). Structure mémoire d'un exécutable, pile d'exécution. Approfondissement des mécanismes d'allocation statique et dynamique de mémoire.
