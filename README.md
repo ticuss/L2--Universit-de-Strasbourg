@@ -30,16 +30,14 @@ Pendant mon première anné, j'ai suivi les matiers suivantes:
  	* Programmation utilisant le langage fonctionnel Ocaml
  * **Bases de Données 1**
  	* Cette UE présente les principes et les outils de base permettant de concevoir et de manipuler des bases de données relationnelles. L’apprentissage du langage de requêtes structuré SQL (Structured Query Language) constitue le noyau central du cours.
- 	
- 	
- 	
+ 	 	
 ## S3 
  * **Analyse 2**
  	* Suites réelles, limites de fonctions, dérivabilité, intégralité, theoremes de Taylor- Lagrange, théoremes de Rolle...
  * **Logique et programmation logique** 
  	* Etude des fonctions booléennes, les notions de logique mathématique classique (d'ordre 0 et 1) et les appliquer à la déduction par la méthode de résolution, le paradigme de programmation logique par la pratique du langage Prolog
  * **Architecture**
- 	* Les thèmes traités sont la logique des circuits (combinatoires et séquentiels), l'architecture des processeurs, les jeux d'instructions, l'assembleur, le chemin de données, le pipeline et les architectures superscalaires, la hiérarchie mémoire, les architectures parallèles
+ 	* Les thèmes traités sont la logique des circuits (combinatoires et séquentiels), l'architecture des processeurs, les jeux d'instructions, l'assembleur, le chemin de données, le pipeline et les architectures superscalaires, la hiérarchie mémoire, les architectures parallèles.
  	
  * **Structures de données et algorithmes 1**	
  	* Etude des styles d'implantations statiques/fonctionnelles sans effets de bord et des styles d'implantations dynamiques avec des passages d'arguments par adresse. Spécification algébrique pour les types des donnes piles, files, et listes et aussi les implantation en langage C, analyse des compléxites des algorithmes optimisation, choix des implementations.
@@ -47,13 +45,27 @@ Pendant mon première anné, j'ai suivi les matiers suivantes:
  	
  * **Programmation orientée objets 1**
  	
-	* Cette UE est une introduction à la programmation orientée objets avec Java comma langage d'application.
+ 	* Cette UE est une introduction à la programmation orientée objets avec Java comma langage d'application.
 		* Les classes et objets, constructeurs, méthodes, interfaces, classes anonymes, l'héritage, classes dérivees, super classe ;
 		
-* **Techniques de développement** 
- 	
- 	
- 	
+ * **Techniques de développement** 
+ 	* Mécanismes de la compilation (préprocesseur, compilation, assemblage et édition de liens).Utilisation, création et compilation de bibliothèques. Gestionnaire de versions et développement collaboratif (svn, git). Documentation de code (doxygen). Méthodologie de gestion des erreurs et déverminage (gdb et valgrind). Structure mémoire d'un exécutable, pile d'exécution. Approfondissement des mécanismes d'allocation statique et dynamique de mémoire.
+ * **Traitement du signal**
+ 	* Cette UE présente les bases de la théorie et du traitement du signal, c'est à dire la représentation mathématique et le traitement informatique des signaux physiques (son, lumière, ondes radio, wifi, etc.).2chantillonnage (théorème de Shannon), analyse (transformée de Fourier discrète), filtrage, convolution, transmissionet aussi des types d'applications et leur mise en oeuvre (traitement et compression d'images et de sons, détection radar).
+ * **Probabilités et statistique**
+ 	*  Dénombrement (combinatoire),Probabilité conditionnelle (formule de Bayes),Lois discrètes (lois usuelles, fonction génératrice, moments),Statistique (statistique descriptive).
+ * **Analyse numérique appliquée**
+ 	* Ce module aborde des notions d’algèbre linéaire et des outils d’analyse numérique sous un angle algorithmique et applicatif. Applications linéaires et changements de base. Moindres carrés, régression linéaire, régression polynomiale, et régression avec transformation logarithmique.Applications sur SCILAB.
+ * **Programmation système** 
+ 	* Programmation avec les primitives systèmes : fichiers et répertoires, gestion des périphériques, processus, droits, tubes et signaux. L'accent est mis sur la portabilité des applications au travers de l'utilisation de la norme POSIX. 
+ * **Résaux IP**
+ 	* Introduction aux réseaux informatiques. Elle présente la notion de service et de protocole à travers l'étude du modèle OSI et TCP/IP. Les protocoles Ethernet et IP versions 4 et 6: principe de commutation et de routage, adressage et traduction d'adresses, découverte de voisins, configuration automatique, équipements d'interconnexion (concentrateur, commutateur, routeur), sécurité.
+ * **Structures de données et algorithmes 2**
+ 	*Cette UE présente de nombreuses structures de données classiques :
+- Tables : avec adressage calculé, associatif, indexé, partagé et haché;
+- Arbres et forêts : binaires, généraux, préfixés, (auto-)équilibrés, e.g., AVL et B-arbres;
+- Graphes : non orientés, orientés, acycliques etc.
+
  	
  	
  	
