@@ -52,7 +52,7 @@ De plus, vous trouverez en détails les cours suivis.
  	* Ce module aborde des notions d’algèbre linéaire et des outils d’analyse numérique sous un angle algorithmique et applicatif. Applications linéaires et changements de base. Moindres carrés, régression linéaire, régression polynomiale, et régression avec transformation logarithmique.Applications sur SCILAB.
  * **Programmation système** 
  	* Programmation avec les primitives systèmes : fichiers et répertoires, gestion des périphériques, processus, droits, tubes et signaux. L'accent est mis sur la portabilité des applications au travers de l'utilisation de la norme POSIX. 
- * **Résaux IP**
+ * **Réseaux IP**
  	* Introduction aux réseaux informatiques. Elle présente la notion de service et de protocole à travers l'étude du modèle OSI et TCP/IP. Les protocoles Ethernet et IP versions 4 et 6: principe de commutation et de routage, adressage et traduction d'adresses, découverte de voisins, configuration automatique, équipements d'interconnexion (concentrateur, commutateur, routeur), sécurité.
  * **Structures de données et algorithmes 2**
  	* Ce cours présente de nombreuses structures de données classiques:
@@ -80,25 +80,22 @@ De plus, vous trouverez en détails les cours suivis.
      *  Tests et recette
      *  Métier : DevOps
      *  Projet collaboratif maintenance et sécurité des applications informatiques
- * **Accompagner la stratégie de l'entreprise dans ses évolutions numériques**
+ * **Accompagnement de la stratégie de l'entreprise dans ses évolutions numériques**
      *  Management collaboratif
      *  Outils du travail collaboratif 
 
-
-
-
 ## S6
- * **Manager le service informatique, organiser et piloter les projets**
+ * **Management du service informatique, organisation et pilotage des projets**
      * Management et droit social
      * Gestion de projet et accompagnement du changement
      * Performance et budget
      * Projet collaboratif management  	
- * **Développer ses pratiques professionnelles**       
+ * **Développement des pratiques professionnelles**       
      * Pratique de l'anglais métier
      * Projet professionnel
      * Actualités métier et/ou territoire
      * Retour d'expérience et projection
- * **Certifier ses compétences de Responsable en ingénierie des logiciels** 
+ * **Certification des compétences de responsable en ingénierie des logiciels** 
      *  Team building
      *  Méthodologie de projet d'entreprise
      *  Méthodologie des écrits professionnels
