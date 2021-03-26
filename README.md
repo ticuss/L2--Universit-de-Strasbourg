@@ -1,5 +1,5 @@
 # Mon parcours universitaire
-qsdqs
+
 Ce dêpot git rassemble une partie des projets réalisés dans le cadre de mon parcours universitaire. Ces projets transversaux m'ont permis d'évoluer dans la mise en oeuvre de plusieurs algorithmes et structures des données. Cela ne représente qu'un début, que je suis capable d'améliorer.
 
 De plus, vous trouverez en détails les cours suivis.
