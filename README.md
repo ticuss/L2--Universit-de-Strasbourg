@@ -67,7 +67,15 @@ De plus, vous trouverez en détails les cours suivis.
  	* Initiation à l'économie : Environnement économique des entreprises dans le secteur des technologies de l'information et de la communication, étude micro-économique, structures de marché qui guident le comportement des firmes.  Principes de fonctionnement interne des entreprises : Étude des stratégies des entreprises : choix d'une stratégie particulière, analyse de stratégies génériques. Financement des entreprises (trésorerie, gestion de portefeuille, budget, etc.), besoins et sources de financement. 
 ## CESI Bachelor Responsable en ingénierie des logiciels  	
 ## S5	
-    - Au 1er semestre : l'apprenant responsable en ingénierie logiciel saura intervenir
+    * **Analyser, modéliser, concevoir et développer les solutions logicielles
+    * Construction d'un cahier des charges
+    * Modélisation de l'architecture logicielle (UML)
+    * Développement en langage objet
+    * Développement d'application mobile
+    * Gestion des données de l'entreprise
+    * Projet collaboratif analyse et conception logiciels
+
+    saura intervenir
     sur le cycle de vie du développement des applications, développer des applications faciles à utiliser (logiciel, web, mobile...)
     , élaborer les solutions fonctionnelles et techniques, étudier les demandes
     des utilisateurs, proposer des solutions innovantes et participer à l'évolution 
