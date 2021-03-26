@@ -1,9 +1,10 @@
 # Mon parcours universitaire
 
-Ce dêpot git rassemble une partie des projets réalisés dans le cadre de cursus de licence 2 de l'UFR de mathématique et d'informatique de Strasbourg. Ces projets transversaux m'ont permis d'évoluer dans la mise en oeuvre de plusieurs algorithmes et structures des données. Cela ne représente qu'un début, que je suis capable d'améliorer.
+Ce dêpot git rassemble une partie des projets réalisés dans le cadre de mon parcours universitaire. Ces projets transversaux m'ont permis d'évoluer dans la mise en oeuvre de plusieurs algorithmes et structures des données. Cela ne représente qu'un début, que je suis capable d'améliorer.
 
-De plus, vous trouverez en détails les cours suivis à l'université.
+De plus, vous trouverez en détails les cours suivis.
 
+## L'UFR de mathématique et d'informatique de Strasbourg
 ## S1
  * **Algèbre 1**
  	* Calcul matriciel, systèmes linéaires, arithmétique dans Z.
@@ -64,9 +65,15 @@ De plus, vous trouverez en détails les cours suivis à l'université.
  	* L'infrastructure, le modèle client/serveur, le HTML, le rendu CSS, le Javascript et la méthode AJAX, l'utilisation de librairie telles jQuery pour dynamiser les IHM et de frameworks tels Bootstrap pour répondre aux problématiques du responsive, le langage PHP. 
  * **Économie et gestion**
  	* Initiation à l'économie : Environnement économique des entreprises dans le secteur des technologies de l'information et de la communication, étude micro-économique, structures de marché qui guident le comportement des firmes.  Principes de fonctionnement interne des entreprises : Étude des stratégies des entreprises : choix d'une stratégie particulière, analyse de stratégies génériques. Financement des entreprises (trésorerie, gestion de portefeuille, budget, etc.), besoins et sources de financement. 
- 	
- 	
- 	
+## CESI Bachelor Responsable en ingénierie des logiciels  	
+## S5	
+    - Au 1er semestre : l'apprenant responsable en ingénierie logiciel saura intervenir
+    sur le cycle de vie du développement des applications, développer des applications faciles à utiliser (logiciel, web, mobile...)
+    , élaborer les solutions fonctionnelles et techniques, étudier les demandes
+    des utilisateurs, proposer des solutions innovantes et participer à l'évolution 
+    des applications, rédiger la documentation technique des applications, participer 
+    à des projets de développement, assurer une assistance aux utilisateurs.
+## S6
  	
  	
  	
