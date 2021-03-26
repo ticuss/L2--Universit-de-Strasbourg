@@ -75,12 +75,6 @@ De plus, vous trouverez en détails les cours suivis.
     * Gestion des données de l'entreprise
     * Projet collaboratif analyse et conception logiciels
 
-    saura intervenir
-    sur le cycle de vie du développement des applications, développer des applications faciles à utiliser (logiciel, web, mobile...)
-    , élaborer les solutions fonctionnelles et techniques, étudier les demandes
-    des utilisateurs, proposer des solutions innovantes et participer à l'évolution 
-    des applications, rédiger la documentation technique des applications, participer 
-    à des projets de développement, assurer une assistance aux utilisateurs.
 ## S6
  	
  	
