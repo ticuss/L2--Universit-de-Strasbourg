@@ -68,12 +68,12 @@ De plus, vous trouverez en détails les cours suivis.
 ## CESI Bachelor Responsable en ingénierie des logiciels  	
 ## S5	
  * **Analyser, modéliser, concevoir et développer les solutions logicielles**
- * Construction d'un cahier des charges
- * Modélisation de l'architecture logicielle (UML)
- * Développement en langage objet
- * Développement d'application mobile
- * Gestion des données de l'entreprise
- * Projet collaboratif analyse et conception logiciels
+     * Construction d'un cahier des charges
+     * Modélisation de l'architecture logicielle (UML)
+     * Développement en langage objet
+     * Développement d'application mobile
+     * Gestion des données de l'entreprise
+     * Projet collaboratif analyse et conception logiciels
 
 ## S6
  	
